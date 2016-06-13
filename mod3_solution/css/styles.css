@@ -1,0 +1,106 @@
+body {
+	font-size: 16px;
+	color: #000;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*HEADER*/
+#header-nav {
+  background-color: #009999;
+  border-bottom: 1px solid #444;
+  margin: 0;
+}
+
+.navbar-header {
+	padding: 25px;
+}
+
+.navbar-brand {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  color: #000;
+  text-shadow: 1px 1px 1px #222;
+  margin: 0;
+  font-weight: bold;
+  padding-top: 5px; 
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#collapsable-nav {
+	border: none;
+	background-color: #009999;
+	padding: 0;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background: #009999;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #000;
+}
+
+.navbar-header button.navbar-toggle:focus, .navbar-header button.navbar-toggle:hover {
+	border: 1px solid #fff;
+}
+
+#nav-list {
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+}
+
+#nav-list li {
+	border-bottom: 1px solid #555;
+}
+
+#nav-list li:last-child {
+	border-bottom: none;
+}
+#nav-list a {
+  color: #000;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+.glyphicon {
+	margin-right: 5px;
+}
+
+#main-content h1 {
+	margin: 30px 0 20px;
+}
+
+#home-text div {
+	background-color: #009999;
+	padding: 15px 20px;
+	color: #fff;
+	line-height: 25px;
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  #home-text div {
+  	margin: 0 20px;
+  }
+
+/********** Super extra small devices Only **********/
+@media (max-width: 479px) {
+
+.navbar-brand h1 {
+	font-size: 28px;
+	padding-top: 9px;
+}
+
+ #home-text div {
+  	margin: 0;
+  }
+
+}
